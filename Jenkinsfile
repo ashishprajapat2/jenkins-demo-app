@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building the application...'
+                echo 'Building the application again...'
                 // In a real project, this would be a build command, e.g., 'mvn clean install'
                 bat 'echo "Build complete."'
             }

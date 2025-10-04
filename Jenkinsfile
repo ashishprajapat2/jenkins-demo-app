@@ -4,6 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the application again...'
+                exit 1
                 // In a real project, this would be a build command, e.g., 'mvn clean install'
                 bat 'echo "Build complete."'
             }
